@@ -105,7 +105,7 @@ if ($conn->connect_error) {
     <!-- Formulario para añadir hoteles -->
     <div class="form-container">
         <h2>Agregar un Hotel</h2>
-        <form action="index.php" method="POST">
+        <form action="agencias.php" method="POST">
             <label for="nombre_hotel">Nombre del Hotel:</label>
             <input type="text" name="nombre_hotel" id="nombre_hotel" required>
             <label for="ubicacion">Ubicación:</label>
